@@ -22,7 +22,7 @@ end
 
 def id_generator
   db = {
-  id: 01
+  id: rand(-10000)
 }
 return db
   # return a hash with a key :id assigned to positive integer
